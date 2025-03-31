@@ -1,0 +1,8 @@
+<!-- Main app structure -->
+<app-header />
+<main class="main-content font-mono mt-16 ml-6">
+  @if (!session){
+    <app-about />
+  }
+  <router-outlet />
+</main>
